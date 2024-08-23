@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-sec {
+  width: 60%;
+  height: 85vh;
+  border-radius: 50px;
+  background-image: url('./assets/wallpaper.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.showtemp {
+  font-size: 4rem;
+  height: 55px;
+  width: auto;
+  padding: 10px;
+  margin-right: 40%;
+  position: absolute;
+  bottom: 60px;
+}
+
+.showtemp>sup {
+  font-size: 2.2rem;
+}
+
+.sec-2 {
+  width: 38%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.504);
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.sec-2>h1 {
+  font-size: 2.5rem;
+}
+
+.temperature {
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 60px;
+  border-top: 2px solid white;
+}
+
+.humidity {
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 60px;
+  border-top: 2px solid white;
+}
+
+.visibility {
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 60px;
+  border-top: 2px solid white;
+}
+
+.wind {
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  height: 60px;
+  border-top: 2px solid white;
+}
+
+.ans {
+  font-size: 1.4rem;
+  width: auto;
+  height: 40px;
+  padding: 5px 4px 0px 4px;
+  margin: 20px 0px;
+  padding: 5px 5px 10px 5px;
+  border-radius: 8px;
+}
+
+.search {
+  width: 89%;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-top: 2px solid white;
+}
+
+.inpt {
+  height: 80%;
+  width: 70%;
+  font-size: 1.4rem;
+  background-color: transparent;
+  border: none;
+  padding-left: 10px;
+  border-bottom: 2px solid white;
+}
+
+.search>.inpt:focus {
+  outline: none;
+}
+
+.inpt::placeholder {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.search>span {
+  width: 50px;
+  height: 75%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background-color: gray;
+}
+
+.search>span>i {
+  color: white;
+}
+
+.symbol {
+  width: 60%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin: 10px;
+}
+
+.symbol>span {
+  font-size: 7rem;
+}
+
+.symbol>span>img {
+  width: 100px;
+  height: 100px;
+}
+
+.symbol>h1 {
+  position: absolute;
+  bottom: 0px;
+}
